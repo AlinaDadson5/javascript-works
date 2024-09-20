@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="txt1">
+    <input type="text" id="txt2"><br><br>
+        <button onclick="fun()">Submit</button><br><br>
+     <input type="text" id="txt3">
+     <script>
+        function fun()
+        {
+            var a,b,c
+            a=Number(document.getElementById("txt1").value)
+            b=Number(document.getElementById("txt2").value)
+            c=a+b
+           document.getElementById("txt3").value=c
+        }
+     </script>
+</body>
+</html>
